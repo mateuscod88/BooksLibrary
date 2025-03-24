@@ -1,0 +1,6 @@
+﻿services:
+  bookslibrary.api:
+    image: bookslibrary.api
+    build:
+      context: .
+      dockerfile: BooksLibrary.Api/Dockerfile
